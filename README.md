@@ -4,7 +4,11 @@ https://www.mkdocs.org/
 
 
 ## Demo
-https://ryomazda.github.io/mkdocs_practice/
+https://ryomazda.github.io/mkdocs_practice/  
+or  
+https://mkdocs.pigimaru.com/
+
+Both must look the same. I just tried two different deployment ways.
 
 
 ## Development
@@ -21,7 +25,13 @@ mkdocs new mkdocs_practice
 mkdocs serve
 ```
 
-### Deploy as github pages
+### Deploying as github pages
 ```sh
 mkdocs gh-deploy
+```
+
+### Building files and Deploying to AWS S3
+```sh
+mkdocs build
+# & manually upload the site/ to the S3 bucket
 ```
