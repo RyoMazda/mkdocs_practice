@@ -13,17 +13,15 @@ https://ryomazda.github.io/mkdocs_practice/
 pip install mkdocs
 mkdocs --version
 # mkdocs, version 1.1.2 from /path/to/python3.8/site-packages/mkdocs (Python3.8)
-mkdocs new my-project
+mkdocs new mkdocs_practice
 ```
 
 ### Dynamic Serving
 ```sh
-cd my-project
 mkdocs serve
 ```
 
 ### Deploy as github pages
 ```sh
-cd my-project
 mkdocs gh-deploy
 ```
