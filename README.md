@@ -1,8 +1,5 @@
 # MkDocs practice
 
-https://www.mkdocs.org/
-
-
 ## Demo
 https://ryomazda.github.io/mkdocs_practice/  
 or  
@@ -35,3 +32,16 @@ mkdocs gh-deploy
 mkdocs build
 # & manually upload the site/ to the S3 bucket
 ```
+
+
+## Refs
+* Official: https://www.mkdocs.org/
+* Math: TODO
+* Python code reference plugin:
+  * Seems like AllenNLP is doing it in their own way:
+    * https://github.com/allenai/allennlp/blob/master/Makefile
+    * sphinx may be the reasonable choice for python docs for now...
+  * I found a plugin but it doesn't look trustworthy much:
+    * https://github.com/pawamoy/mkdocstrings
+    * https://pawamoy.github.io/mkdocstrings/
+    * https://medium.com/@chrieke/documenting-a-python-package-with-code-reference-via-mkdocs-material-b4a45197f95b
