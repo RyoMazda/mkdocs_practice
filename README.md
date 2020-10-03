@@ -2,6 +2,11 @@
 
 https://www.mkdocs.org/
 
+
+## Demo
+https://ryomazda.github.io/mkdocs_practice/
+
+
 ## Development
 ### How did I start the project
 ```sh
@@ -15,4 +20,10 @@ mkdocs new my-project
 ```sh
 cd my-project
 mkdocs serve
+```
+
+### Deploy as github pages
+```sh
+cd my-project
+mkdocs gh-deploy
 ```
