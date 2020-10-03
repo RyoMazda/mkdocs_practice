@@ -1,4 +1,8 @@
 site_name: MkDocs practice
+repo_url: https://github.com/ryomazda/mkdocs_practice/
+edit_uri: blob/main/docs/
+use_directory_urls: false
+strict: true
 nav:
   - Home: index.md
   - About: about.md
